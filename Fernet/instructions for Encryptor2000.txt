@@ -1,0 +1,91 @@
+How to use my encryptor
+
+Please use Python3 as that is what I have used.
+
+Welcome to the Fernet Encryptor 2000,
+
+------------------------------ MENU ------------------------------
+------------------------------------------------------------------
+[1] - Fernet Key generator
+
+[2] - Fernet Encryptor
+
+[5] - Exit
+------------------------------------------------------------------
+------------------------------------------------------------------
+Please select from the following options:
+
+
+
+* If you want to generate a key hit [1]*
+* If you want to encrypt AND decrypt hit [2]*
+* if you want to exit the program just hit [5]*
+
+------------------------------------------------------------------------------------
+[1] - Fernet Key Generator
+---------------------------------------------------------------------------
+------------------------------ Key Generator ------------------------------
+---------------------------------------------------------------------------
+Would you like to continue? 
+
+[Y]es, [N]o
+
+*To ensure the user wanted to generate a new key*
+*hit [y] to continue or [n] to exit back out*
+
+[Y]es --
+===========================================================================
+Here is your key, Don't show it to anyone!: 
+
+b'GSCulmXwBHwAYBWTnRUqbDlhgkac_6AKI1scDJVt_oA=' 
+
+please hit 'enter' to continue....
+===========================================================================
+*use this key to encrypt or to carry over to another fernet program*
+*hit enter to continue back out to the menu*
+
+
+
+[2] Encryptor
+-----------------------------------------------------------------------
+------------------------------ ENCRYPTOR ------------------------------
+-----------------------------------------------------------------------
+[1] - Same Session Encryption
+
+[2] - Imported key Encryption
+
+
+Please select from one of the following options:
+
+*hit [1] just to encrypt using the same session, or [2] to import your own key to encrypt the message*
+*screens become the same, if you hit [2] just paste your key in the terminal and hit enter*
+
+
+please enter the text you wish to encrypt:
+
+Hello world
+-----------------------------------------------------------------------
+congratulations it is now encrypted, here is the cipher text: 
+
+ b'gAAAAABYzurQliYcIfBfs16NxHKd7TtafMk9HUPkR7IF4clhfVBX36FBFCz78iLEqdTz7EQfgSscpZTBnpL6QTHEBuZqC3ptFQ=='
+
+
+'please hit enter to continue'
+
+-----------------------------------------------------------------------
+
+And here is your decrypted message, is this correct??:
+
+
+b'Hello world'
+---------------------------------------------------------------------------
+--------------- Exiting Fernet Encryptor 2000 ---------------
+---------------------------------------------------------------------------
+Made by Gareth Clarson - 10392634 - Cryptography
+
+
+
+
+
+
+

@@ -1,0 +1,18 @@
+## RUN WITH PYTHON 2.7 ##
+
+Step 1: 
+
+Enter [1] - encrypt a message or [2] - Decrypt a message
+
+[5] exit
+
+Step 2:
+
+[1] - Encrypt
+ - put the test you wish to encrypt in
+ - put the hex key in
+
+[2] - Decrypt
+ - put the cipher text in
+ - put the hex key in 
+
